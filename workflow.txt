@@ -1,0 +1,10 @@
+desc
+1 = readfile in_file.txt
+2 = writefile out_file.txt
+228 = dump dump_1.txt
+229 = dump dump_2.txt
+3 = grep опа
+4 = sort
+5 = replace la опа
+csed
+1 -> 4 -> 228 -> 5 -> 229 -> 3 -> 2
